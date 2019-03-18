@@ -1,1 +1,4 @@
-console.log("hello rails365");
+import { GithubApiService } from './GithubApiService';
+
+let svc: GithubApiService = new GithubApiService();
+svc.getUserInfo("hfpp2012");
